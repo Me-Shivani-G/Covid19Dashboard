@@ -1,0 +1,73 @@
+.ul-list-each-state {
+  width: 100%;
+  list-style-type: none;
+  background-color: #161625;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  height: 50%;
+}
+.category-item {
+  text-align: center;
+  width: 120px;
+  margin: 0px 10px;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Confirmed {
+  color: #ff073a;
+}
+.Confirmed:focus {
+  background: #331427;
+}
+.Confirmed:hover {
+  background: #331427;
+}
+.Active {
+  color: #007bff;
+}
+.Active:focus {
+  background: #132240;
+  border-radius: 10px;
+}
+.Active:hover {
+  background: #132240;
+  border-radius: 10px;
+}
+.Recovered {
+  color: #28a745;
+  border-radius: 10px;
+}
+.Recovered:focus {
+  background: #182829;
+  border-radius: 10px;
+}
+.Recovered:hover {
+  background: #182829;
+  border-radius: 10px;
+}
+.Deceased {
+  color: #6c757d;
+}
+.Deceased:focus {
+  background: #212230;
+  border-radius: 10px;
+}
+.Deceased:hover {
+  background: #212230;
+  border-radius: 10px;
+}
+
+.confirmed-block {
+  background: #331427;
+  border-radius: 10px;
+}

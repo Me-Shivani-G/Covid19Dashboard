@@ -1,0 +1,117 @@
+.header-container {
+  width: 100%;
+  height: 80px;
+  top: 0;
+  background-color: #1e1e30;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 5px;
+  position: fixed;
+}
+.header-items-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}
+.link-item {
+  text-decoration: none;
+  outline: none;
+}
+.covid-heading {
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f8fafc;
+}
+.india-text {
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(82, 82, 245);
+}
+.home-about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}
+.nav-item {
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8fafc;
+}
+.mobile-nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #1e1e30;
+  height: 56px;
+  width: 100%;
+}
+.mobile-header-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+.mobile-button {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+.mobile-header-icon {
+  color: #ffffff;
+  height: 16px;
+  width: 24px;
+}
+.mobile-redirecting-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  height: 56px;
+  width: 100vw;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.mobile-home-about-container {
+  list-style-type: none;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobile-nav-item {
+  color: #ffffff;
+}
+@media (min-width: 577px) {
+  .mobile-nav-container {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .header-container {
+    display: none;
+  }
+}

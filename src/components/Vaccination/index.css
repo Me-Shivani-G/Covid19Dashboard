@@ -1,0 +1,240 @@
+.vaccination-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #161625;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 75px;
+}
+.state-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 85vw;
+  justify-content: flex-start;
+  padding-left: 25px;
+}
+.home-icon {
+  height: 32px;
+  width: 32px;
+  color: #cbd5e1;
+  margin-right: 10px;
+}
+.india-state-name-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #cbd5e1;
+}
+.drop-down-menu-container {
+  display: flex;
+  align-items: center;
+  width: 85vw;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+.select-menu-class {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 16px;
+  height: 52px;
+  background: #2f2f43;
+  opacity: 0.5;
+  border-radius: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8fafc;
+  margin-right: 15px;
+  width: 300px;
+  flex-grow: 0;
+}
+
+.state-drop-down-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #94a3b8;
+}
+.vaccination-trends-container {
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.sites-meta-data-container {
+  display: flex;
+  align-items: center;
+  width: 85vw;
+  justify-content: space-around;
+}
+.sites-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #2f2f43;
+  border-radius: 10px;
+  padding: 15px;
+  width: 40vw;
+}
+.sites-emoji-container {
+  display: flex;
+  align-items: center;
+}
+.emoji-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: #161625;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.vaccine-emoji {
+  height: 30px;
+  width: 30px;
+}
+.sites-conducting-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #cbd5e1;
+}
+.sites-count {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.public-private-container {
+  display: flex;
+  align-items: center;
+}
+.public-sites {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #cbd5e1;
+  margin-right: 50px;
+}
+.vaccination-trends-area-chart-container {
+  width: 85vw;
+  background-color: #1c1c2b;
+  border-radius: 15px;
+  margin-top: 25px;
+  padding: 15px;
+}
+.vac-trends-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #94a3b8;
+}
+.vac-trends-button-container {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  justify-content: space-between;
+}
+.vac-trends-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #94a3b8;
+  padding: 5px;
+  border-style: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+}
+.doses-trend-container {
+  background-color: transparent;
+  display: flex;
+  width: 80vw;
+  min-height: 300px;
+}
+.ages-trend-container {
+  background-color: transparent;
+  display: flex;
+  width: 80vw;
+  min-height: 300px;
+}
+.display-none-container {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .vaccination-details-container {
+    margin-top: 0px;
+  }
+  .india-state-name-heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .dropdown-menu-container {
+    justify-content: flex-start;
+  }
+  .select-menu-class {
+    width: 150px;
+  }
+  .pie-charts-container {
+    flex-direction: column;
+    width: 85vw;
+  }
+  .gender-vaccine-category-container {
+    width: 85vw;
+    margin-bottom: 10px;
+  }
+  .vac-age-container {
+    width: 85vw;
+    margin-bottom: 10px;
+  }
+  .sites-meta-data-container {
+    flex-direction: column;
+  }
+  .sites-container {
+    width: 85vw;
+    margin-bottom: 10px;
+  }
+  .sites-conducting-heading {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .sites-count {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .vac-trends-heading {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .vac-trends-button {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .vaccine-category-heading {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
